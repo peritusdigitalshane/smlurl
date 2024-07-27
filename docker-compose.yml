@@ -4,4 +4,4 @@ services:
   shlink-web-client:
     image: shlinkio/shlink-web-client:latest
     ports:
-      - "8081:80"
+      - "8084:80"
