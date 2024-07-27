@@ -1,7 +1,0 @@
-version: '3'
-
-services:
-  shlink-web-client:
-    image: shlinkio/shlink-web-client:latest
-    ports:
-      - "8081:80"

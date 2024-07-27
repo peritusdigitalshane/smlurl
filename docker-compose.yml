@@ -1,11 +1,7 @@
-version: "3"
+version: '3'
 
 services:
-   shlink-web-client:
-    image: shlinkio/shlink-web-client
-    restart: always
-    container_name: shlink-gui-Custom
-    depends_on:
-      - shlink
+  shlink-web-client:
+    image: shlinkio/shlink-web-client:latest
     ports:
-      - 8082:8080
+      - "8081:80"
